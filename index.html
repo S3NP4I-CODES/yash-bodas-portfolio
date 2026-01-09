@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Bodas | Photographer & Video Editor</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #0b0b0b;
+            color: #f1f1f1;
+            line-height: 1.6;
+        }
+
+        /* HERO */
+        .hero {
+            height: 100vh;
+            background: 
+                linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0.9)),
+                url("Img1.jpeg") center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.8rem;
+            letter-spacing: 3px;
+        }
+
+        .hero p {
+            margin-top: 12px;
+            font-size: 1.3rem;
+            color: #d0d0d0;
+        }
+
+        section {
+            padding: 90px 10%;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+        }
+
+        .section-desc {
+            text-align: center;
+            color: #9a9a9a;
+            max-width: 650px;
+            margin: 0 auto 45px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 22px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 6px;
+            transition: transform 0.4s ease, opacity 0.4s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.04);
+            opacity: 0.95;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Yash Bodas</h1>
+        <p>Photographer & Video Editor</p>
+    </div>
+</div>
+
+<!-- PEOPLE & EMOTION -->
+<section>
+    <h2>People & Emotion</h2>
+    <p class="section-desc">
+        Human connections, emotions, and moments that exist quietly
+        but stay forever.
+    </p>
+    <div class="gallery">
+        <img src="Img1.jpeg">
+        <img src="Img2.jpeg">
+        <img src="Img3.jpeg">
+        <img src="Img4.jpeg">
+    </div>
+</section>
+
+<!-- STREET & LIFE -->
+<section>
+    <h2>Street & Everyday Life</h2>
+    <p class="section-desc">
+        Unposed moments from everyday life —
+        simple, honest, and real.
+    </p>
+    <div class="gallery">
+        <img src="Img5.jpeg">
+        <img src="Img6.jpeg">
+    </div>
+</section>
+
+<!-- WILDLIFE & NATURE -->
+<section>
+    <h2>Wildlife & Nature</h2>
+    <p class="section-desc">
+        Observing nature patiently, letting moments unfold
+        without interference.
+    </p>
+    <div class="gallery">
+        <img src="Img7.jpeg">
+        <img src="Img8.jpeg">
+        <img src="Img9.jpeg">
+    </div>
+</section>
+
+<!-- DETAILS / CLOSING -->
+<section>
+    <h2>Details</h2>
+    <p class="section-desc">
+        A quiet ending — minimal, calm, and reflective.
+    </p>
+    <div class="gallery">
+        <img src="Img10.jpeg">
+    </div>
+</section>
+
+<footer>
+    © 2026 Yash Bodas · Photography & Films
+</footer>
+
+</body>
+</html>
